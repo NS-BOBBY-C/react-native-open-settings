@@ -2,7 +2,7 @@
   "name": "@bobbycolley/react-native-open-settings",
   "private": false,
   "version": "1.0.1",
-  "description": "open app settings in react native",
+  "description": "Open app settings in react native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,15 @@
   ],
   "author": "Robert Colley",
   "license": "MIT",
-  "repository": "https://github.com/NS-BOBBY-C/react-native-open-settings"
+  "homepage": "https://github.com/NS-BOBBY-C/react-native-open-settings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NS-BOBBY-C/react-native-open-settings"
+  },
+  "bugs": {
+    "url": "https://github.com/NS-BOBBY-C/react-native-open-settings/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
