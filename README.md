@@ -24,6 +24,13 @@ npm install @bobbycolley/react-native-open-settings
 
 ### Autolinking
 
+### iOS
+
+```bash
+cd ios
+pod install
+```
+
 Thats it! You don't need to do anything else.
 
 ### Manual Setup
