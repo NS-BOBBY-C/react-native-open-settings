@@ -1,7 +1,7 @@
 {
   "name": "@bobbycolley/react-native-open-settings",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Open app settings in react native",
   "main": "index.js",
   "scripts": {
