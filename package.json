@@ -1,7 +1,7 @@
 {
   "name": "@bobbycolley/react-native-open-settings",
   "private": false,
-  "version": "2.0.0",
+  "version": "1.0.1",
   "description": "Open app settings in react native",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "release-it": "^14.10.1"
   }
 }
