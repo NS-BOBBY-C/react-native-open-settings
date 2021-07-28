@@ -1,21 +1,41 @@
-# react-native-open-settings
+# @bobbycolley/react-native-open-settings
 
-[![npm
-version](https://badge.fury.io/js/react-native-open-settings@2x.png)](http://badge.fury.io/js/react-native-open-settings)
+Forked and up-to-date package for [react-native-open-settings](https://github.com/lunarmayor/react-native-open-settings)
 
-Open your apps settings in the Settings app :P
+[![npm version](https://badge.fury.io/js/%40bobbycolley%2Freact-native-open-settings.svg)](https://badge.fury.io/js/%40bobbycolley%2Freact-native-open-settings)
+
+Open your apps settings in the Settings app
 
 ## Install
-```
-npm install react-native-open-settings
+
+### Yarn
+
+```bash
+yarn add @bobbycolley/react-native-open-settings
 ```
 
-### iOS
+### NPM
+
+```bash
+npm install @bobbycolley/react-native-open-settings
+```
+
+## Setup
+
+### Autolinking
+
+Thats it! You don't need to do anything else.
+
+### Manual Setup
+
+#### iOS
+
 Add `React Native Open Settings` to project libraries.
 
-### Android
+#### Android
 
 - Edit `build.gradle` to look like this:
+
 ```java
 apply plugin: 'com.android.application'
 
@@ -30,12 +50,14 @@ dependencies {
 ```
 
 - In `settings.gradle`, insert the following code:
+
 ```java
 include ':react-native-open-settings'
 project(':react-native-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-open-settings/android')
 ```
 
 - Edit your `MainActivity.java` to look like this:
+
 ```java
 package com.myapp;
 
@@ -57,15 +79,23 @@ public class MainActivity extends extends ReactActivity {
 
 ## Usage
 
-Require the `react-native-open-settings` module.
+Require the `@bobbycolley/react-native-open-settings` module.
 
 ```javascript
-import OpenSettings from 'react-native-open-settings';
+import OpenSettings from "@bobbycolley/react-native-open-settings";
 ```
 
 And then, where you want to open the settings, just do
+
 ```javascript
-OpenSettings.openSettings()
+OpenSettings.openSettings();
 ```
 
 Have fun!
+
+## TODO
+
+- [x] Update README
+- [x] Add MIT License
+- [ ] Update with PR's from react-native-open-settings
+- [ ] Add tests

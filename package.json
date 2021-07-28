@@ -1,6 +1,7 @@
 {
-  "name": "react-native-open-settings",
-  "version": "1.0.0",
+  "name": "@bobbycolley/react-native-open-settings",
+  "private": false,
+  "version": "1.0.1",
   "description": "open app settings in react native",
   "main": "index.js",
   "scripts": {
@@ -9,7 +10,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "Michael Morrissey",
-  "license": "ISC",
-  "repository": "https://github.com/lunarmayor/react-native-open-settings"
+  "author": "Robert Colley",
+  "license": "MIT",
+  "repository": "https://github.com/NS-BOBBY-C/react-native-open-settings"
 }
