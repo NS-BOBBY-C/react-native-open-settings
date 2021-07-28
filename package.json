@@ -5,6 +5,7 @@
   "description": "Open app settings in react native",
   "main": "index.js",
   "scripts": {
+    "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
