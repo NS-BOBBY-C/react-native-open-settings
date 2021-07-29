@@ -104,5 +104,6 @@ Have fun!
 
 - [x] Update README
 - [x] Add MIT License
-- [ ] Update with PR's from react-native-open-settings
+- [x] Update with PR's from react-native-open-settings
+- [ ] New features
 - [ ] Add tests
